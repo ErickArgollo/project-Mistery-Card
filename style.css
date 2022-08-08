@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Mouse+Memoirs&display=swap');
+
+body {
+    color: white;
+    font-family: 'Mouse Memoirs', sans-serif;
+    background-image: url(images/thumb-1920-626500.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+header {
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    text-align: center;
+    color: red;
+    letter-spacing: 8px;
+}
+
+
+main{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+#input-container{
+    margin-top: -30px;
+    display: flex;
+    flex-direction: column;
+    font-size: 25px;
+}
+
+#input-container h2 {
+text-align: center;
+color: white;
+
+}
+#carta-texto {
+    height: 35px;
+    color: red;
+    font-weight: 800;
+    font-size: 15px;
+    border: 2px solid black;
+}
+
+#buttons {
+    display: flex;
+    justify-content: space-around;
+}
+
+#criar-carta{
+    align-self: center;
+    width: 100px;
+    height: 50px;
+    margin-top: 6px;
+    margin-top: 20px;
+    background-color: black;
+    color: white;
+    font-weight: 900;
+    border-radius: 10px;
+}
+#clear {
+    width: 100px;
+    height: 50px;
+    margin-top: 6px;
+    margin-top: 20px;
+    background-color: black;
+    color: white;
+    font-weight: 900;
+    border-radius: 10px;
+}
+
+#clear:hover{
+    border: 1px solid red;
+    transform: translateY(-5px);
+}
+
+#criar-carta:hover{
+    border: 1px solid red;
+    transform: translateY(-5px);
+}
+
+
+#card{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    
+}
+
+.card{
+    height: 30px;
+    margin:10px;
+    margin-bottom: 2px;
+}
+
+#card-container{
+    margin-top: 20px;
+    border: 5px solid white;
+    height: 50vh;
+    width: 60%;
+    overflow: hidden;
+
+}
+
+#contador-container {
+    border: 5px solid white;
+    width: 100px;
+    height: 50px;
+    
+}
+
+#contador-title {
+    font-size: 30px;
+    color: white;
+}
+#carta-contador {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 10px;
+    font-size: 30px;
+    font-weight: 900;
+    
+}
+
+
+
+.newspaper {
+    background-color: rgb(250, 235, 215);
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+    color: red;
+}
+
+.magazine1 {
+    background-color: rgb(0, 128, 128);
+    color: rgb(255, 255, 255);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.magazine2 {
+    background-image: url(images/pink-pattern.png);
+    color: rgb(255, 0, 255);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 900;
+}
+
+.medium {
+    font-size: 20px;
+    padding: 8px;
+}
+
+.big {
+    font-size: 30px;
+    padding: 10px;
+}
+
+.reallybig {
+    font-size: 40px;
+    padding: 15px;
+}
+
+.rotateleft {
+    transform: matrix(0.996195, -0.0871557, 0.0871557, 0.996195, 0, 0);
+}
+
+.rotateright {
+    transform: matrix(0.996195, 0.0871557, -0.0871557, 0.996195, 0, 0);
+}
+
+.skewleft {
+    transform: matrix(1, 0, 0.176327, 1, 0, 0);
+}
+
+.skewright {
+    transform: matrix(1, 0, -0.176327, 1, 0, 0);
+}
