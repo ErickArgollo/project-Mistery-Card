@@ -1,13 +1,13 @@
 # Seja muito bem-vindo(a) ao meu projeto Mistery-Card! :rocket:
-![bem-vindo(a)](https://github.com/ErickArgollo/project-Meme-Generator/blob/main/meme-gen.gif)
+![bem-vindo(a)](https://github.com/ErickArgollo/project-Mistery-Card/blob/main/misterygif.gif)
 
 #### <p>Esse projeto tem como objetivo desenvolver uma aplicação utilizando JavaScript, HTML5 e CSS3. Nesta aplicação o usuário poderá digitar algum texto no input e será retornado para ele "cartas misteriosas" contendo as palavras da frase e junto a elas backgrounds, sizes, e outras informações selecionadas aleatoriamente. É possível também, clicar em cima das cartas geradas para que seu estilo seja modificado. No canto inferior da tela há um contador de palavras, onde cada palavra escrita é registrada. Esse foi o primeiro projeto em que coloquei realmente em prática os conhecimentos adquiridos sobre flexbox e junto a isso tentei tornar o meu conteúdo mais responsivo. Adicionei como bônus um botão "Limpar" para remover as cartas existentes.   </p>
 
 ## Link para acessar o projeto
-### <b> <a href="https://erickargollo.github.io/project-Meme-Generator/">Meme Generator</a> </b> <br>
+### <b> <a href="https://erickargollo.github.io/project-Mistery-Card/">Mistery Card</a> </b> <br>
 
 ## Screenshot
-![ScreenShot](https://github.com/ErickArgollo/project-Meme-Generator/blob/main/meme-gen.png)
+![ScreenShot](https://github.com/ErickArgollo/project-Mistery-Card/blob/main/MisteryCard.png)
 ## Objetivos
   * Desenvolver um site que gere cartas misteriosas.
   * Ao digitar uma frase, o usuário deverá visualizar cada palavra individualmente.
